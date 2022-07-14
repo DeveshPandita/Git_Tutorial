@@ -1,0 +1,12 @@
+Symlinking /home/devesh/catkin_wsp/devel/./_setup_util.py
+Symlinking /home/devesh/catkin_wsp/devel/./setup.bash
+Symlinking /home/devesh/catkin_wsp/devel/./env.sh
+Symlinking /home/devesh/catkin_wsp/devel/./local_setup.zsh
+Symlinking /home/devesh/catkin_wsp/devel/./local_setup.bash
+Symlinking /home/devesh/catkin_wsp/devel/./setup.zsh
+Symlinking /home/devesh/catkin_wsp/devel/./cmake.lock
+Symlinking /home/devesh/catkin_wsp/devel/./local_setup.sh
+Symlinking /home/devesh/catkin_wsp/devel/./setup.sh
+Symlinking /home/devesh/catkin_wsp/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Symlinking /home/devesh/catkin_wsp/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/devesh/catkin_wsp/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake

@@ -1,0 +1,8 @@
+prefix=/home/devesh/catkin_wsp/devel/.private/turtle_pong
+
+Name: turtle_pong
+Description: Description of turtle_pong
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

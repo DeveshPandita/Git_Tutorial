@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/devesh/catkin_wsp/install/setup.sh

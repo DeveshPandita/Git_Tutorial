@@ -1,0 +1,6 @@
+devel_space: /home/devesh/catkin_wsp/devel
+install: false
+install_space: /home/devesh/catkin_wsp/install
+profile: default
+source_space: /home/devesh/catkin_wsp/src
+workspace: /home/devesh/catkin_wsp
