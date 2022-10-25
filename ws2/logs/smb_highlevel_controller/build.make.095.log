@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target subscriber_node[0m
+[ 60%] Built target smb_highlevel_controller
+[ 80%] [32mBuilding CXX object CMakeFiles/subscriber_node.dir/src/subscriber.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/devesh/ws2/devel/.private/smb_highlevel_controller/lib/smb_highlevel_controller/subscriber_node[0m
+[100%] Built target subscriber_node

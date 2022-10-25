@@ -1,0 +1,14 @@
+/usr/bin/ld: CMakeFiles/smb_highlevel_controller.dir/src/smb_highlevel_controller_node.cpp.o: in function `main':
+smb_highlevel_controller_node.cpp:(.text+0x95): undefined reference to `ros::init(int&, char**, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned int)'
+/usr/bin/ld: smb_highlevel_controller_node.cpp:(.text+0x144): undefined reference to `ros::NodeHandle::NodeHandle(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > const&)'
+/usr/bin/ld: smb_highlevel_controller_node.cpp:(.text+0x18f): undefined reference to `ros::spin()'
+/usr/bin/ld: smb_highlevel_controller_node.cpp:(.text+0x1b2): undefined reference to `ros::NodeHandle::~NodeHandle()'
+/usr/bin/ld: smb_highlevel_controller_node.cpp:(.text+0x27b): undefined reference to `ros::NodeHandle::~NodeHandle()'
+/usr/bin/ld: CMakeFiles/smb_highlevel_controller.dir/src/SmbHighlevelController.cpp.o: in function `smb_highlevel_controller::SmbHighlevelController::SmbHighlevelController(ros::NodeHandle&)':
+SmbHighlevelController.cpp:(.text+0x55): undefined reference to `ros::NodeHandle::NodeHandle(ros::NodeHandle const&)'
+/usr/bin/ld: CMakeFiles/smb_highlevel_controller.dir/src/SmbHighlevelController.cpp.o: in function `smb_highlevel_controller::SmbHighlevelController::~SmbHighlevelController()':
+SmbHighlevelController.cpp:(.text+0x86): undefined reference to `ros::NodeHandle::~NodeHandle()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/smb_highlevel_controller.dir/build.make:113: /home/devesh/ws2/devel/.private/smb_highlevel_controller/lib/smb_highlevel_controller/smb_highlevel_controller] Error 1
+make[1]: *** [CMakeFiles/Makefile2:191: CMakeFiles/smb_highlevel_controller.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

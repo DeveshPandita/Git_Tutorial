@@ -1,0 +1,6 @@
+devel_space: /home/devesh/ws2/devel
+install: false
+install_space: /home/devesh/ws2/install
+profile: default
+source_space: /home/devesh/ws2/src
+workspace: /home/devesh/ws2

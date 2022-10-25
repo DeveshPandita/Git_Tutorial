@@ -1,0 +1,9 @@
+<launch>
+    <rosparam command= "load" file="$(find smb_highlevel_controller)/config/check.yaml"/>
+    <!-- <include file="$(find smb_highlevel_controller)/launch/smb_gazebo.launch"/> -->
+    <!-- <rosparam file="$(find smb_highlevel_controller)/config/check.yaml" /> -->
+    <!-- <node type="rviz" name="rviz" pkg="rviz" args="-d $(find package_name)/rviz/config_file.rviz" /> -->
+    <arg name="laser_enabled" default="true"/>
+    <node name="subscriber_node" pkg="smb_highlevel_controller" type="subscriber_node" output="screen"/>
+    <node name="rviz" pkg="rviz" type="rviz" output="screen"/>
+</launch>

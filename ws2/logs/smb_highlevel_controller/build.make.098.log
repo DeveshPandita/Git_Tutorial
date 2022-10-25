@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target smb_highlevel_controller[0m
+[ 33%] [32m[1mLinking CXX executable /home/devesh/ws2/devel/.private/smb_highlevel_controller/lib/smb_highlevel_controller/smb_highlevel_controller[0m
+[100%] Built target smb_highlevel_controller
